@@ -9,12 +9,16 @@
     <script>
     papas = () => document.getElementById('papa').style.display='block'; 
     </script>
-    <h1>La mia prima pagina web pubblica</h1>
-    <p>Un omaggio ai primi visitatori</p><button onClick='papas()'>Clicca qui</button>
+    <h1 style='text-align: center; margin:auto; font-size: calc( 10px + 2vw);'>La mia prima pagina web pubblica</h1>
+    <p style='text-align: center; font-size: calc( 5px + 2vw)'>Un omaggio ai primi visitatori</p>
+    <div style='display: flex; justify-content: center;'>
+        <button  onClick='papas()'>Clicca qui</button>
+    </div>
+    <div style='display: flex; justify-content: center; margin-top: 10'>
     <img id='papa' 
     src='https://upload.wikimedia.org/wikipedia/commons/8/87/Papasarrugadas.jpg'
-    style='display: none;' />
-
+    style='display: none; width: calc(80%);' />
+    </div>
 
 </body>
 </html>
